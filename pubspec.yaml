@@ -1,0 +1,29 @@
+name: flutter_products_app
+description: Une application Flutter avec Firebase
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.19.0
+  cloud_firestore: ^4.9.0
+  firebase_auth: ^4.17.4
+
+  # Autres dépendances utiles
+  shared_preferences: ^2.2.0
+
+  # Authentification Google
+  google_sign_in: ^6.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
